@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/pspeter3/tslint-vendor#readme",
   "devDependencies": {
+    "rollup": "^0.41.4",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
     "tslint": "4.4.2",
     "typescript": "2.1.6"
   }
