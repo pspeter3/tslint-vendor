@@ -1,0 +1,29 @@
+{
+  "name": "tslint-vendor",
+  "private": true,
+  "version": "4.4.2",
+  "description": "A single TsLint binary file that can be vendored",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pspeter3/tslint-vendor.git"
+  },
+  "keywords": [
+    "tslint",
+    "vendor",
+    "bazel"
+  ],
+  "author": "Phips Peter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pspeter3/tslint-vendor/issues"
+  },
+  "homepage": "https://github.com/pspeter3/tslint-vendor#readme",
+  "devDependencies": {
+    "tslint": "4.4.2",
+    "typescript": "2.1.6"
+  }
+}
