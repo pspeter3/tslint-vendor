@@ -520,6 +520,12 @@
       "resolved": "https://registry.npmjs.org/rollup-plugin-commonjs/-/rollup-plugin-commonjs-7.0.0.tgz",
       "dev": true
     },
+    "rollup-plugin-json": {
+      "version": "2.1.0",
+      "from": "rollup-plugin-json@latest",
+      "resolved": "https://registry.npmjs.org/rollup-plugin-json/-/rollup-plugin-json-2.1.0.tgz",
+      "dev": true
+    },
     "rollup-plugin-node-resolve": {
       "version": "2.0.0",
       "from": "rollup-plugin-node-resolve@latest",
