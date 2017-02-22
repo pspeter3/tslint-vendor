@@ -1,6 +1,8 @@
 import commonjs from "rollup-plugin-commonjs"
 import json from "rollup-plugin-json"
 import nodeResolve from "rollup-plugin-node-resolve"
+import re from "rollup-plugin-re"
+import uglify from "rollup-plugin-uglify"
 
 const extensions = [
     ".js",
@@ -34,5 +36,15 @@ export default {
         commonjs({
             extensions: extensions,
         }),
+        re({
+            patterns: [
+                {
+                    match: /tslint(\/|\\)lib/,
+                    test: "module.filename",
+                    replace: "__filename"
+                },
+            ]
+        }),
+        uglify()
     ],
 }

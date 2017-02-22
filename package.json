@@ -28,6 +28,8 @@
     "rollup-plugin-commonjs": "^7.0.0",
     "rollup-plugin-json": "^2.1.0",
     "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-re": "^1.0.1",
+    "rollup-plugin-uglify": "^1.0.1",
     "tslint": "4.4.2",
     "typescript": "2.1.6"
   }
